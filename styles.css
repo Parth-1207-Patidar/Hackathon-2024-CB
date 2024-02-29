@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+body{
+    background-image: url('https://images.pexels.com/photos/15286/pexels-photo.jpg?cs=srgb&dl=pexels-luis-del-r%C3%ADo-15286.jpg&fm=jpg&_gl=1*9ibkaz*_ga*NDM5Mzg2MTYyLjE3MDkyMTkzMjk.*_ga_8JE65Q40S6*MTcwOTIyNzczNC4yLjEuMTcwOTIyODA0NS4wLjAuMA');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header ul li{
+    display: inline;
+    padding: 10vw;
+    padding-left: 11vw;
+    cursor: pointer;
+}
+
+li a{
+    color:  #000000;
+    text-decoration: none;
+}
+
+header{
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    background-color: #ffffff;
+    height: 20px;
+    color: #000000;
+
+}
+
+body h3{
+    text-align: center;
+    background-color: #000000;
+    color: white;
+}
+
+.container h1{
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.container {
+    border: #ffffff 2px solid;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    height: 90vh;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    box-sizing: content-box;
+    top: 30px;
+    padding: 10px;
+    position: relative;
+    color: #ffffff;
+}
+
+.data{
+    border: 2px solid rgb(255, 255, 255);
+    height: 36vh;
+    width: 42vw;
+    border-radius: 20px;
+}
+
+data:hover{
+    cursor: pointer;
+    box-shadow: #000000;
+}
+
+.data1{
+   position: absolute;
+   top: 10vh;
+   left: 2vw;
+}
+
+.data2{
+    position: absolute;
+    top: 10vh;
+    right: 2vw;
+}
+
+.data3{
+    position: absolute;
+    bottom: 4vh;
+    left: 2vw;
+}
+
+.data4{
+    position: absolute;
+    bottom: 4vh;
+    right: 2vw;
+}
+
+button{
+    height:  32px;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #d1eaff;
+    color: rgb(38, 111, 228);
+    font-weight: 550;
+    border: none;
+    position: absolute;
+    left: 18.5vw;
+    bottom: 15px;
+    width: 5vw;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(139, 195, 252);
+    transition: ease-in-out .3s;
+}
+.data p{
+    padding: 1vh;
+    font-size: 18px;
+}
+
+.data h2{
+    padding: 1vh;
+    font-size: 40px;
+}
+
+.data h2:nth-child(2){
+    font-weight: 100;
+    font-size: 30px;
+}
