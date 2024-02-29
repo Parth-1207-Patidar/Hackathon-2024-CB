@@ -9,4 +9,4 @@ We're trying to create a website to spread awareness about the resourcce quality
 Currently we just created the home page and we're further developing other pages contentwise.
 We'll create a page with details about water reservation and quality and same with soil, air and nature(biodiversity).
 We'll also create a navbar to redirect to some select topics.
-And finalize by creating a contact us page where the details of our program will be mentioned.
+And finalize by creating a about page where the details of our program will be mentioned and a contact us page where details about our team will be mentioned.
